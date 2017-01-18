@@ -9,13 +9,21 @@
 import UIKit
 import CoreData
 
+/*
+ Esta clase contiene la informacion de cada uno de los usuarios.
+ Obtenemos la data de la DB y luego se muestra.
+ Con la opcion de poder eliminar cada registro.
+ */
 class LibraryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
+    // Declaramos esta variable de tipo UITableView
     @IBOutlet weak var listTable: UITableView!
     
     var users : [User] = []
     
+    /*
+        Metodo nativo cuando carga la vista de la clase.
+      */
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -80,6 +88,9 @@ class LibraryViewController: UIViewController, UITableViewDataSource, UITableVie
         return cell
     }
     
+    /*
+        Funcion para obtener la data que se encuentra en la base de datos.
+    */
     func getData() {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
@@ -90,7 +101,10 @@ class LibraryViewController: UIViewController, UITableViewDataSource, UITableVie
             print("Fetching failed")
         }
     }
-    
+    /*
+        Funcionalidad del tableview. Le pasamos los usuarios registrados
+        y la opcion de poder eliminar a cada registro.
+      */
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         

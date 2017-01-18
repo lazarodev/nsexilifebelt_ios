@@ -8,11 +8,21 @@
 
 import UIKit
 
+/*
+ Clase que maneja los widgets y valores de la vista de ROOM
+ */
 class RoomViewController: UIViewController {
     
     //variables
+    // se declara la variable implicitamente de tipo intero
+    // a su vez se inicializa con el valor 0 (recordemos que es un variable)
     var value = 0
     
+    /*
+        Funcion que realizara cada widget de la vista.
+        En este caso de botones en el cual se la ha asiganado un valor
+        desde la vista (Main.storyBoard) con un tag que funciona como un ID.
+        */
     @IBAction func sendValue(_ sender: AnyObject) {
         
         if (sender.tag == Int(1)) {
@@ -40,7 +50,9 @@ class RoomViewController: UIViewController {
         
     }
     
-    
+    /*
+        Metodo nativo para enviar data de una clase a otra con un identificador TAG
+        */
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "valueRoom" {
@@ -51,13 +63,18 @@ class RoomViewController: UIViewController {
         
     }
 
-
+    /*
+        Metodo nativo cuando la vista es mostrada.
+     */
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    /*
+        Metodo nativo para manejar de manera correcta la memoria de esta clase.
+        */
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
