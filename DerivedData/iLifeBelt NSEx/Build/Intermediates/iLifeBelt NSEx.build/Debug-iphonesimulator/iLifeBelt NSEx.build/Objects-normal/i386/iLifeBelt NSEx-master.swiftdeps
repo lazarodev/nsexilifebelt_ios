@@ -1,0 +1,19 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "58c3ceb12186d4482c986bd4f62efa51"
+build_time: [537463430, 672055000]
+inputs:
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/ResultViewController.swift": [534019385, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/FloorViewController.swift": [533772921, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/SpotViewController.swift": [533838598, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/CarViewController.swift": [533772921, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/StoveViewController.swift": [533772921, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/StudyViewController.swift": [533772921, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/ViewController.swift": [537379658, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/AppDelegate.swift": [533768895, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/BathViewController.swift": [533837708, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/RoomViewController.swift": [533772921, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/WaterViewController.swift": [533855574, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/iLifeBelt NSEx/LibraryViewController.swift": [534019498, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/DerivedData/iLifeBelt NSEx/Build/Intermediates/iLifeBelt NSEx.build/Debug-iphonesimulator/iLifeBelt NSEx.build/DerivedSources/CoreDataGenerated/iLifeBelt_NSEx/User+CoreDataClass.swift": [534025184, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/DerivedData/iLifeBelt NSEx/Build/Intermediates/iLifeBelt NSEx.build/Debug-iphonesimulator/iLifeBelt NSEx.build/DerivedSources/CoreDataGenerated/iLifeBelt_NSEx/User+CoreDataProperties.swift": [534025184, 0]
+  "/Users/Community/Documents/XCodeProjects/iLifeBelt NSEx/DerivedData/iLifeBelt NSEx/Build/Intermediates/iLifeBelt NSEx.build/Debug-iphonesimulator/iLifeBelt NSEx.build/DerivedSources/CoreDataGenerated/iLifeBelt_NSEx/iLifeBelt_NSEx+CoreDataModel.swift": [534025184, 0]

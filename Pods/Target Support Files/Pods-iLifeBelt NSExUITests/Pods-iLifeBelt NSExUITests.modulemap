@@ -1,0 +1,6 @@
+framework module Pods_iLifeBelt_NSExUITests {
+  umbrella header "Pods-iLifeBelt NSExUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
