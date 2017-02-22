@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		12E2A8743DCD42FD61555068 /* Pods_iLifeBelt_NSExTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB2F6D919A7354B5B2840F7 /* Pods_iLifeBelt_NSExTests.framework */; };
 		294DADE8F13B27A1666CF2FB /* Pods_iLifeBelt_NSEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFF3980B6FF99B3735847BC /* Pods_iLifeBelt_NSEx.framework */; };
+		2C0F69301E5DF62A006C71E5 /* DefectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F692F1E5DF628006C71E5 /* DefectsViewController.swift */; };
+		2C0F69321E5DFF5D006C71E5 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F69311E5DFF5D006C71E5 /* HappinessViewController.swift */; };
+		2C0F69341E5DFFB1006C71E5 /* ReligionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F69331E5DFFB1006C71E5 /* ReligionViewController.swift */; };
 		2C43D6AF1DEE25BF000D6849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D6AE1DEE25BF000D6849 /* AppDelegate.swift */; };
 		2C43D6B11DEE25BF000D6849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D6B01DEE25BF000D6849 /* ViewController.swift */; };
 		2C43D6B41DEE25BF000D6849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C43D6B21DEE25BF000D6849 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 		2C43D6BC1DEE25BF000D6849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C43D6BA1DEE25BF000D6849 /* LaunchScreen.storyboard */; };
 		2C43D6C71DEE25C0000D6849 /* iLifeBelt_NSExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D6C61DEE25C0000D6849 /* iLifeBelt_NSExTests.swift */; };
 		2C43D6D21DEE25C0000D6849 /* iLifeBelt_NSExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D6D11DEE25C0000D6849 /* iLifeBelt_NSExUITests.swift */; };
+		2CB107F31E5E14F00040E66F /* LowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB107F21E5E14F00040E66F /* LowViewController.swift */; };
+		2CB107F51E5E153D0040E66F /* HighViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB107F41E5E153D0040E66F /* HighViewController.swift */; };
+		2CD6FBE61E5B9DD200BC3935 /* QualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6FBE51E5B9DD200BC3935 /* QualityViewController.swift */; };
 		2CEFB2AC1E2686E1009A5D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEFB2AB1E2686E1009A5D4B /* Assets.xcassets */; };
 		2CF171F51DF1E669009DE1B2 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF171F41DF1E669009DE1B2 /* LibraryViewController.swift */; };
 		2CF171F91DF1F34B009DE1B2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF171F81DF1F34B009DE1B2 /* ResultViewController.swift */; };
@@ -49,6 +55,9 @@
 
 /* Begin PBXFileReference section */
 		1212885E2411E14E21E3DAD8 /* Pods_iLifeBelt_NSExUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLifeBelt_NSExUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0F692F1E5DF628006C71E5 /* DefectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefectsViewController.swift; sourceTree = "<group>"; };
+		2C0F69311E5DFF5D006C71E5 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		2C0F69331E5DFFB1006C71E5 /* ReligionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReligionViewController.swift; sourceTree = "<group>"; };
 		2C43D6AB1DEE25BF000D6849 /* iLifeBelt NSEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iLifeBelt NSEx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C43D6AE1DEE25BF000D6849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C43D6B01DEE25BF000D6849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +71,9 @@
 		2C43D6CD1DEE25C0000D6849 /* iLifeBelt NSExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iLifeBelt NSExUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C43D6D11DEE25C0000D6849 /* iLifeBelt_NSExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLifeBelt_NSExUITests.swift; sourceTree = "<group>"; };
 		2C43D6D31DEE25C0000D6849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB107F21E5E14F00040E66F /* LowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowViewController.swift; sourceTree = "<group>"; };
+		2CB107F41E5E153D0040E66F /* HighViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighViewController.swift; sourceTree = "<group>"; };
+		2CD6FBE51E5B9DD200BC3935 /* QualityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityViewController.swift; sourceTree = "<group>"; };
 		2CEFB2AB1E2686E1009A5D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF171F41DF1E669009DE1B2 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		2CF171F81DF1F34B009DE1B2 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +175,12 @@
 				2CFCE1E71DEE32BE00420DE6 /* StoveViewController.swift */,
 				2CFCE1E91DEE32D000420DE6 /* FloorViewController.swift */,
 				2CFCE1EB1DEE32DB00420DE6 /* StudyViewController.swift */,
+				2CD6FBE51E5B9DD200BC3935 /* QualityViewController.swift */,
+				2C0F692F1E5DF628006C71E5 /* DefectsViewController.swift */,
+				2C0F69311E5DFF5D006C71E5 /* HappinessViewController.swift */,
+				2C0F69331E5DFFB1006C71E5 /* ReligionViewController.swift */,
+				2CB107F21E5E14F00040E66F /* LowViewController.swift */,
+				2CB107F41E5E153D0040E66F /* HighViewController.swift */,
 			);
 			path = "iLifeBelt NSEx";
 			sourceTree = "<group>";
@@ -479,17 +497,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB107F51E5E153D0040E66F /* HighViewController.swift in Sources */,
 				2CF171F91DF1F34B009DE1B2 /* ResultViewController.swift in Sources */,
 				2CFCE1EA1DEE32D000420DE6 /* FloorViewController.swift in Sources */,
+				2C0F69321E5DFF5D006C71E5 /* HappinessViewController.swift in Sources */,
+				2CD6FBE61E5B9DD200BC3935 /* QualityViewController.swift in Sources */,
 				2CFCE1E41DEE328A00420DE6 /* SpotViewController.swift in Sources */,
 				2CFCE1E61DEE329800420DE6 /* CarViewController.swift in Sources */,
 				2CFCE1E81DEE32BE00420DE6 /* StoveViewController.swift in Sources */,
 				2CFCE1EC1DEE32DB00420DE6 /* StudyViewController.swift in Sources */,
 				2C43D6B71DEE25BF000D6849 /* iLifeBelt_NSEx.xcdatamodeld in Sources */,
 				2C43D6B11DEE25BF000D6849 /* ViewController.swift in Sources */,
+				2C0F69341E5DFFB1006C71E5 /* ReligionViewController.swift in Sources */,
 				2C43D6AF1DEE25BF000D6849 /* AppDelegate.swift in Sources */,
 				2CFCE1E01DEE326B00420DE6 /* BathViewController.swift in Sources */,
 				2CFCE1DE1DEE325300420DE6 /* RoomViewController.swift in Sources */,
+				2C0F69301E5DF62A006C71E5 /* DefectsViewController.swift in Sources */,
+				2CB107F31E5E14F00040E66F /* LowViewController.swift in Sources */,
 				2CFCE1E21DEE327900420DE6 /* WaterViewController.swift in Sources */,
 				2CF171F51DF1E669009DE1B2 /* LibraryViewController.swift in Sources */,
 			);
