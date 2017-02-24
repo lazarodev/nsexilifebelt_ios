@@ -1,37 +1,27 @@
 //
-//  WaterViewController.swift
+//  GTPhoneViewController.swift
 //  iLifeBelt NSEx
 //
-//  Created by Community One on 29/11/16.
-//  Copyright © 2016 lazaro. All rights reserved.
+//  Created by Community One on 23/02/17.
+//  Copyright © 2017 lazaro. All rights reserved.
 //
 
 import UIKit
 
-class WaterViewController: UIViewController {
+class GTPhoneViewController: UIViewController {
     
+    var fromSala = 0
     var value = 0
-    var fromBath = 0
-    
     
     
     @IBAction func sendValue(_ sender: AnyObject) {
         
         if (sender.tag == Int(1)) {
-            value = 0 + fromBath
-            performSegue(withIdentifier: "valueWater", sender: self)
+            value = 0 + fromSala
+            performSegue(withIdentifier: "valueGTPhone", sender: self)
         } else if (sender.tag == Int(2)) {
-            value = 10 + fromBath
-            performSegue(withIdentifier: "valueWater", sender: self)
-        }
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == "valueWater" {
-            if let destination = segue.destination as? SpotViewController {
-                destination.fromWater = value
-            }
+            value = 2325 + fromSala
+            performSegue(withIdentifier: "valueGTPhone", sender: self)
         }
         
     }
@@ -40,6 +30,14 @@ class WaterViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "valueGTPhone" {
+            if let destination = segue.destination as? GTSecaViewController {
+                destination.fromPhone = value
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

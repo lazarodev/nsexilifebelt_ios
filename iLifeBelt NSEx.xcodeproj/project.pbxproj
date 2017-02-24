@@ -19,6 +19,17 @@
 		2C43D6BC1DEE25BF000D6849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C43D6BA1DEE25BF000D6849 /* LaunchScreen.storyboard */; };
 		2C43D6C71DEE25C0000D6849 /* iLifeBelt_NSExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D6C61DEE25C0000D6849 /* iLifeBelt_NSExTests.swift */; };
 		2C43D6D21DEE25C0000D6849 /* iLifeBelt_NSExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D6D11DEE25C0000D6849 /* iLifeBelt_NSExUITests.swift */; };
+		2C7B56CD1E5F4A8600CAACFB /* GTResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56CC1E5F4A8500CAACFB /* GTResultViewController.swift */; };
+		2C7B56CF1E5F4B3200CAACFB /* GTBathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56CE1E5F4B3200CAACFB /* GTBathViewController.swift */; };
+		2C7B56D11E5F4C6400CAACFB /* GTCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56D01E5F4C6400CAACFB /* GTCarViewController.swift */; };
+		2C7B56D31E5F4F5D00CAACFB /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56D21E5F4F5D00CAACFB /* CreditCardViewController.swift */; };
+		2C7B56D51E5F4F8900CAACFB /* GTEmployesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56D41E5F4F8900CAACFB /* GTEmployesViewController.swift */; };
+		2C7B56D71E5F503B00CAACFB /* GTHouseBreakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56D61E5F503B00CAACFB /* GTHouseBreakViewController.swift */; };
+		2C7B56D91E5F505500CAACFB /* GTSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56D81E5F505500CAACFB /* GTSalaViewController.swift */; };
+		2C7B56DB1E5F507300CAACFB /* GTPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56DA1E5F507300CAACFB /* GTPhoneViewController.swift */; };
+		2C7B56DD1E5F508B00CAACFB /* GTSecaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56DC1E5F508B00CAACFB /* GTSecaViewController.swift */; };
+		2C7B56DF1E5F50C900CAACFB /* GTTvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56DE1E5F50C900CAACFB /* GTTvViewController.swift */; };
+		2C7B56E11E5F50E300CAACFB /* GTVisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B56E01E5F50E300CAACFB /* GTVisaViewController.swift */; };
 		2CB107F31E5E14F00040E66F /* LowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB107F21E5E14F00040E66F /* LowViewController.swift */; };
 		2CB107F51E5E153D0040E66F /* HighViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB107F41E5E153D0040E66F /* HighViewController.swift */; };
 		2CD6FBE61E5B9DD200BC3935 /* QualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6FBE51E5B9DD200BC3935 /* QualityViewController.swift */; };
@@ -71,6 +82,17 @@
 		2C43D6CD1DEE25C0000D6849 /* iLifeBelt NSExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iLifeBelt NSExUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C43D6D11DEE25C0000D6849 /* iLifeBelt_NSExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLifeBelt_NSExUITests.swift; sourceTree = "<group>"; };
 		2C43D6D31DEE25C0000D6849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7B56CC1E5F4A8500CAACFB /* GTResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTResultViewController.swift; sourceTree = "<group>"; };
+		2C7B56CE1E5F4B3200CAACFB /* GTBathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTBathViewController.swift; sourceTree = "<group>"; };
+		2C7B56D01E5F4C6400CAACFB /* GTCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTCarViewController.swift; sourceTree = "<group>"; };
+		2C7B56D21E5F4F5D00CAACFB /* CreditCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
+		2C7B56D41E5F4F8900CAACFB /* GTEmployesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTEmployesViewController.swift; sourceTree = "<group>"; };
+		2C7B56D61E5F503B00CAACFB /* GTHouseBreakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTHouseBreakViewController.swift; sourceTree = "<group>"; };
+		2C7B56D81E5F505500CAACFB /* GTSalaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTSalaViewController.swift; sourceTree = "<group>"; };
+		2C7B56DA1E5F507300CAACFB /* GTPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTPhoneViewController.swift; sourceTree = "<group>"; };
+		2C7B56DC1E5F508B00CAACFB /* GTSecaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTSecaViewController.swift; sourceTree = "<group>"; };
+		2C7B56DE1E5F50C900CAACFB /* GTTvViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTTvViewController.swift; sourceTree = "<group>"; };
+		2C7B56E01E5F50E300CAACFB /* GTVisaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTVisaViewController.swift; sourceTree = "<group>"; };
 		2CB107F21E5E14F00040E66F /* LowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowViewController.swift; sourceTree = "<group>"; };
 		2CB107F41E5E153D0040E66F /* HighViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighViewController.swift; sourceTree = "<group>"; };
 		2CD6FBE51E5B9DD200BC3935 /* QualityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +203,17 @@
 				2C0F69331E5DFFB1006C71E5 /* ReligionViewController.swift */,
 				2CB107F21E5E14F00040E66F /* LowViewController.swift */,
 				2CB107F41E5E153D0040E66F /* HighViewController.swift */,
+				2C7B56CC1E5F4A8500CAACFB /* GTResultViewController.swift */,
+				2C7B56CE1E5F4B3200CAACFB /* GTBathViewController.swift */,
+				2C7B56D01E5F4C6400CAACFB /* GTCarViewController.swift */,
+				2C7B56D21E5F4F5D00CAACFB /* CreditCardViewController.swift */,
+				2C7B56D41E5F4F8900CAACFB /* GTEmployesViewController.swift */,
+				2C7B56D61E5F503B00CAACFB /* GTHouseBreakViewController.swift */,
+				2C7B56D81E5F505500CAACFB /* GTSalaViewController.swift */,
+				2C7B56DA1E5F507300CAACFB /* GTPhoneViewController.swift */,
+				2C7B56DC1E5F508B00CAACFB /* GTSecaViewController.swift */,
+				2C7B56DE1E5F50C900CAACFB /* GTTvViewController.swift */,
+				2C7B56E01E5F50E300CAACFB /* GTVisaViewController.swift */,
 			);
 			path = "iLifeBelt NSEx";
 			sourceTree = "<group>";
@@ -498,24 +531,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB107F51E5E153D0040E66F /* HighViewController.swift in Sources */,
+				2C7B56D51E5F4F8900CAACFB /* GTEmployesViewController.swift in Sources */,
+				2C7B56D31E5F4F5D00CAACFB /* CreditCardViewController.swift in Sources */,
 				2CF171F91DF1F34B009DE1B2 /* ResultViewController.swift in Sources */,
+				2C7B56D71E5F503B00CAACFB /* GTHouseBreakViewController.swift in Sources */,
 				2CFCE1EA1DEE32D000420DE6 /* FloorViewController.swift in Sources */,
 				2C0F69321E5DFF5D006C71E5 /* HappinessViewController.swift in Sources */,
 				2CD6FBE61E5B9DD200BC3935 /* QualityViewController.swift in Sources */,
 				2CFCE1E41DEE328A00420DE6 /* SpotViewController.swift in Sources */,
+				2C7B56D11E5F4C6400CAACFB /* GTCarViewController.swift in Sources */,
 				2CFCE1E61DEE329800420DE6 /* CarViewController.swift in Sources */,
+				2C7B56DF1E5F50C900CAACFB /* GTTvViewController.swift in Sources */,
 				2CFCE1E81DEE32BE00420DE6 /* StoveViewController.swift in Sources */,
+				2C7B56CD1E5F4A8600CAACFB /* GTResultViewController.swift in Sources */,
 				2CFCE1EC1DEE32DB00420DE6 /* StudyViewController.swift in Sources */,
 				2C43D6B71DEE25BF000D6849 /* iLifeBelt_NSEx.xcdatamodeld in Sources */,
+				2C7B56E11E5F50E300CAACFB /* GTVisaViewController.swift in Sources */,
 				2C43D6B11DEE25BF000D6849 /* ViewController.swift in Sources */,
 				2C0F69341E5DFFB1006C71E5 /* ReligionViewController.swift in Sources */,
 				2C43D6AF1DEE25BF000D6849 /* AppDelegate.swift in Sources */,
+				2C7B56D91E5F505500CAACFB /* GTSalaViewController.swift in Sources */,
 				2CFCE1E01DEE326B00420DE6 /* BathViewController.swift in Sources */,
 				2CFCE1DE1DEE325300420DE6 /* RoomViewController.swift in Sources */,
 				2C0F69301E5DF62A006C71E5 /* DefectsViewController.swift in Sources */,
 				2CB107F31E5E14F00040E66F /* LowViewController.swift in Sources */,
+				2C7B56CF1E5F4B3200CAACFB /* GTBathViewController.swift in Sources */,
 				2CFCE1E21DEE327900420DE6 /* WaterViewController.swift in Sources */,
+				2C7B56DB1E5F507300CAACFB /* GTPhoneViewController.swift in Sources */,
 				2CF171F51DF1E669009DE1B2 /* LibraryViewController.swift in Sources */,
+				2C7B56DD1E5F508B00CAACFB /* GTSecaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
